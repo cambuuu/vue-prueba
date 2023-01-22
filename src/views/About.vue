@@ -10,9 +10,10 @@
         </div>
     </div>
     -->
+    <p> pico</p>
 </template>
 <script lang="ts">
-import { onMounted, ref } from 'vue';
+/*import { onMounted, ref } from 'vue';
 export default {
     setup(){
         const name = ref('')
@@ -31,7 +32,7 @@ export default {
         }
     },
 }
-
+*/
 </script>
 <style scoped>
 div{

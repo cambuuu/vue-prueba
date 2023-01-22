@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
-import Formulario from '../components/Formulario.vue'
-import Home from '../components/Home.vue'
-import Galeria from '../components/Galeria.vue'
+import About from '../views/About.vue'
+import Home from '../views/Home.vue'
+import Galeria from '../views/Galeria.vue'
 
 
 const router = createRouter({
@@ -12,12 +12,12 @@ const router = createRouter({
       component: Home,
     },
     {
-      path: '/formulario',
-      component: Formulario,
+      path: '/about',
+      component: () => import('@/views/About.vue'),
     },
     {
       path: '/galeria',
-      component: Galeria,
+      component: () => import('@/views/Galeria.vue'),
     },
 ]
 })
