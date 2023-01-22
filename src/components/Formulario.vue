@@ -1,5 +1,5 @@
 <template>
-    <div>
+<!--    <div>
         <input type="text" placeholder="name" v-model="name"/>
         <div>
             <button
@@ -9,6 +9,7 @@
             </button>
         </div>
     </div>
+    -->
 </template>
 <script lang="ts">
 import { onMounted, ref } from 'vue';

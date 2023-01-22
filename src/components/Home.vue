@@ -1,7 +1,7 @@
 <template>  
 <div>
     <h2>
-        <p>pichulas home </p>
+        <p> </p>
     </h2>
 </div>
 </template>
